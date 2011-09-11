@@ -1,0 +1,17 @@
+{
+  "name": "WebGameSolver",
+  "version": "1.1",
+  "description": "Open the first card and show background color of the card.",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://gdd-2011-quiz-japan.appspot.com/webgame/problem*"
+      ],
+      "js": [
+        "solver.js"
+      ]
+    }
+  ],
+  "permissions": [
+  ]
+}
